@@ -12,8 +12,6 @@ gh_pages
 _site
 node_modules
 /dist
-/lib
-/sdk
 /public
 /gh-pages
 /.vscode
