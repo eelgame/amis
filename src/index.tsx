@@ -21,11 +21,13 @@ import {wrapFetcher, buildApi} from './utils/api';
 import {
   filter,
   registerTplEnginer,
-  evalExpression,
   evalJS,
   setCustomEvalJs,
-  setCustomEvalExpression
 } from './utils/tpl';
+import {
+  evalExpression,
+  setCustomEvalExpression
+} from './utils/helper';
 import * as utils from './utils/helper';
 import {resizeSensor} from './utils/resize-sensor';
 import {setIconVendor} from './renderers/Form/IconPickerIcons';
