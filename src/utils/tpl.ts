@@ -1,4 +1,3 @@
-import {createObject} from './helper';
 import {register as registerBulitin, getFilters} from './tpl-builtin';
 import {register as registerLodash} from './tpl-lodash';
 
