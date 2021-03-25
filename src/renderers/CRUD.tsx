@@ -30,7 +30,8 @@ import getExprProperties from '../utils/filter-schema';
 import pick from 'lodash/pick';
 import qs from 'qs';
 import {findDOMNode} from 'react-dom';
-import {evalExpression, filter} from '../utils/tpl';
+import {filter} from '../utils/tpl';
+import {evalExpression} from '../utils/helper';
 import {
   isValidApi,
   buildApi,

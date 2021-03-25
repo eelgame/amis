@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import {Renderer, RendererProps} from '../factory';
 import {ServiceStore, IServiceStore} from '../store/service';
 import {Api, SchemaNode, ApiObject, RendererData, Action} from '../types';
-import {filter, evalExpression} from '../utils/tpl';
+import {filter} from '../utils/tpl';
 import cx from 'classnames';
 import Scoped, {ScopedContext, IScopedContext} from '../Scoped';
 import {observer} from 'mobx-react';
 import {isApiOutdated, isEffectiveApi} from '../utils/api';
 import {Spinner} from '../components';
-import {autobind, isVisible} from '../utils/helper';
+import {autobind, isVisible, evalExpression} from '../utils/helper';
 import {
   BaseSchema,
   SchemaApi,

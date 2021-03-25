@@ -21,7 +21,8 @@ import {
   isObjectShallowModified
 } from '../../utils/helper';
 import Sortable from 'sortablejs';
-import {evalExpression, filter} from '../../utils/tpl';
+import {filter} from '../../utils/tpl';
+import {evalExpression} from '../../utils/helper';
 import find from 'lodash/find';
 import Select from '../../components/Select';
 import {dataMapping, resolveVariable} from '../../utils/tpl-builtin';

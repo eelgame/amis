@@ -27,7 +27,7 @@ import {
   extendObject,
   hasVisibleExpression
 } from '../utils/helper';
-import {evalExpression} from '../utils/tpl';
+import {evalExpression} from '../utils/helper';
 import {IFormStore} from './form';
 import {getStoreById} from './manager';
 

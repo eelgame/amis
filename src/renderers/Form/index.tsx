@@ -4,7 +4,8 @@ import {Renderer, RendererProps} from '../../factory';
 import {observer} from 'mobx-react';
 import {FormStore, IFormStore} from '../../store/form';
 import {Api, SchemaNode, Schema, Action, ApiObject, Payload} from '../../types';
-import {filter, evalExpression} from '../../utils/tpl';
+import {filter} from '../../utils/tpl';
+import {evalExpression} from '../../utils/helper';
 import cx from 'classnames';
 import getExprProperties from '../../utils/filter-schema';
 import {

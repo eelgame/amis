@@ -1,7 +1,7 @@
-import {evalExpression, filter} from './tpl';
+import {filter} from './tpl';
 
 import {Schema, PlainObject} from '../types';
-import {injectPropsToObject, mapObject} from './helper';
+import {injectPropsToObject, mapObject, evalExpression} from './helper';
 import isPlainObject from 'lodash/isPlainObject';
 import cx from 'classnames';
 

@@ -11,7 +11,8 @@ import {
   ApiObject,
   FunctionPropertyNames
 } from '../types';
-import {filter, evalExpression} from '../utils/tpl';
+import {filter} from '../utils/tpl';
+import {evalExpression} from '../utils/helper';
 import cx from 'classnames';
 import qs from 'qs';
 import {isVisible, autobind, bulkBindFunctions} from '../utils/helper';

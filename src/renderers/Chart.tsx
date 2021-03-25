@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Renderer, RendererProps} from '../factory';
 import {ServiceStore, IServiceStore} from '../store/service';
 import {Api, ApiObject, Action} from '../types';
-import {filter, evalExpression} from '../utils/tpl';
+import {filter} from '../utils/tpl';
 import cx from 'classnames';
 import LazyComponent from '../components/LazyComponent';
 import {resizeSensor} from '../utils/resize-sensor';
